@@ -22,13 +22,13 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // WiFi credentials.
-const char* WIFI_SSID = "FG Tijarah SB";
-const char* WIFI_PASS = "fgt98765";
+const char* WIFI_SSID = "ssid";
+const char* WIFI_PASS = "pass";
 
 // Losant credentials.
-const char* LOSANT_DEVICE_ID = "59a1f9bdb36c040007c6e2c8";
-const char* LOSANT_ACCESS_KEY = "a994dda6-0864-403d-93d9-979d75da0d71";
-const char* LOSANT_ACCESS_SECRET = "4ace64fb5866fdcf4878828c755d80b3bac300cde1228d1c4384ad9dce4435d4";
+const char* LOSANT_DEVICE_ID = "device id";
+const char* LOSANT_ACCESS_KEY = "access key";
+const char* LOSANT_ACCESS_SECRET = "access secret";
 
 const int BUTTON_PIN = 14;
 const int LED_PIN = 12;
